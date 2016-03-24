@@ -7,7 +7,7 @@ comparison between the filming and setting location, or open an information slid
 
 <p>The page makes use of the googlemaps API as well as substantial jquery, AJAX, PHP, mySQL, googlemaps infowindows script, and googlemaps marker script.</p>
 
-<p>Current live version can be seen <a href="http://david-fisher.esy.es/">here</a></p>
+<p>Current live version can be seen <a href="http://david-fisher.esy.es/jamesbond/bond_map.php">here</a></p>
 
 <h2>Current updates needed</h2>
 <ul>
