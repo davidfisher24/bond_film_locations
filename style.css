@@ -1,0 +1,210 @@
+	/*
+	LINE 4 -  GLOBAL STYLES
+	LINE 41 - GENERAL STYLES FOR EACH SECTION
+	LINE 81 - STYLES FOR THE MAP
+		line 115 - styles for the map info window
+		line 143 - styles for the information slider
+	*/
+
+	/* GLOBAL STYLES */
+	* {  /
+		margin: 0;
+		padding: 0;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		-ms-box-sizing:border-box;
+		box-sizing:border-box;
+		color: rgb(70,75,71); /* Overall color for all the text on the page */
+		font-size: 85%;
+	}
+	
+	h1,h2,h3,h4,h5,h6 {
+		font-family: 'libre_baskervilleregular';	
+		font-size: 1.6rem;  /* Font family and size for all headings and links */
+	}
+	
+	p {
+		font-family: 'old_standard_ttregular';	
+		font-size: 1.1rem;  /* Font family and size for all paragraph text */
+	}
+	
+	a {
+		font-family: 'libre_baskervilleregular';	
+		text-decoration:none;	
+	}
+
+	a:hover {
+		cursor:pointer;
+	}
+
+	ul {
+		list-style:none;
+	}
+
+	/* GENERAL STYLES FOR EACH SECTION */
+	#sectionone,#sectiontwo,#sectionthree,#sectionfour {
+		position:relative;
+		height: 100%;
+		width: 100%;
+		overflow:auto;
+	}
+	
+	#sectiontwo,#sectionfour {
+		background-color: rgb(251,224,171);	
+	}
+	
+	#sectionthree {
+		background-color: rgb(140,175,150);	
+	}
+	
+	/* Buttons to scroll up and down */
+	.up {
+		width: 5%;
+		position:absolute;
+		top:1%;
+		right:6%;	
+	}
+	.down {
+		width: 5%;
+		position:absolute;
+		bottom:1%;
+		right:6%;	
+		z-index:100;
+	}
+
+	.down:first-of-type {
+		width: 8%;
+	}
+	
+	.up:hover, .down:hover {
+		cursor:pointer;	
+	}
+	
+	/* SECTION 1 - STYLES FOR THE MAP AND MAIN BAR */
+	#map {
+		height: 100%;
+		width: 80%;
+		position:absolute;
+	}
+	
+	#mainsidebar {
+		height:100%;
+		width:20%;
+		left:80%;
+		position:absolute;
+		background-color:black;
+	}
+
+	#mainsidebar h1 {
+		font-size:3.5rem;
+		padding:2%;
+		text-align:center;
+		font-family: '007_goldeneyeregular';
+		text-shadow: 1px 1px rgb(231,174,24);
+	}
+
+	#mainnav li {
+		text-align:center;
+		font-size:1.8rem;
+	}
+
+	#mainnav a {
+		font-family: 'quantumitalic';
+	}
+
+
+	/* Styles for the map info windows */
+
+	a.mapbox {
+		font-size:1.1rem;
+		font-family: 'quantumitalic';
+		margin-left:1%;
+		color:black;
+		text-decoration:underline;
+	}
+
+	h6.mapbox {
+		font-size:2rem;
+		font-family: 'spectre_007regular';
+		text-align:center;
+		margin:0;
+		margin-top:.5%;
+	}
+
+	p.mapbox {
+		font-size:1.2rem;
+		font-family: 'quantumregular';
+		text-align:center;
+	}
+
+	a.mapbox:last-of-type {
+		float:right;
+	}
+
+	/* Styles for the information slider */
+
+	#informationslider {
+		height:100%;
+		width: 22.5%;
+		background-color:rgb(210,210,210);
+		border: 4px solid rgb(231,174,24);
+		border-bottom: 6px solid rgb(231,174,24);
+		position:absolute;
+		left:-22.5%;
+		z-index:20;
+		box-shadow: inset 0 0 10px black;
+	}
+
+	#closemodalwindow {
+		float:right;
+		display:block;
+		padding:1%;
+		width:10%;
+	}
+
+	#closemodalwindow:hover {
+		cursor:pointer;
+	} 
+
+	#informationslider h3, #informationslider p {
+		text-align:center;
+	}
+
+	#info1 {  /* TITLE */
+		font-size: 2.4rem;
+		margin-bottom: 1.5%;
+		font-family: 'skyfall_doneregular';
+		padding:3%;
+	}
+
+	#info2 { /* FILM */
+		font-size: 1.8rem;
+		margin: .5%;
+		font-family: 'quantumitalic';
+	} 
+
+	#info3 { /* LATITUDE */
+		font-size: .8rem;
+		margin: .5%;
+		font-family: 'quantumitalic';
+	} 
+
+	#info4 {  /* LONGITUDE */
+		font-size: .8rem;
+		margin: .5%;
+		font-family: 'quantumitalic';
+	} 
+
+	#info5 {  /* PARAGRAPH */
+		font-size: 1.3rem;
+		padding:2%;
+		font-family: 'quantumregular';
+		text-align:justify;
+	} 
+
+	#info6 {  /* FILMED IN */
+		font-size: 2rem;
+		font-family: '007_goldeneyeregular';
+	}
+
+	

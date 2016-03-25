@@ -1,0 +1,4 @@
+define("DB_SERVER", "mysql.hostinger.es");
+define("DB_USER", "u976220055_david");
+define("DB_PASS", "agaifafe");
+define("DB_NAME", "u976220055_bond");
